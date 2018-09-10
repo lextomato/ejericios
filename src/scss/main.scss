@@ -1,0 +1,162 @@
+@import '../../node_modules/bulma/bulma.sass';
+
+#app {
+	position: relative;
+	font-family: 'Lato', sans-serif;
+	background: #ff535b;
+}
+
+#panel-H {
+	height: 70px;
+	padding: 20px;
+	background: #ffffff;
+}
+
+#panel-V {
+	background-image: linear-gradient(to right, #ff535b , #fd746c);
+	list-style: none;
+	width: 120px;
+	height: 590px;
+	padding: 20px;
+	color: white;
+}
+
+#panel-V img {
+	display: block;
+  margin-left: auto;
+	margin-right: auto;
+	cursor: pointer;
+}
+
+#panel-V li {
+	text-align: center;
+	padding: 3px 0;
+}
+
+#panel-V li a {
+	color: white;
+	text-decoration: none;
+}
+
+#panel-V li:last-child {
+	margin-top: 300px;
+}
+
+#contenido {
+	background: #ffffff;
+	width: 100%;
+	height: 590px;
+	-webkit-box-shadow: inset 0px 10px 13px -3px rgba(224,224,224,0.8);
+	-moz-box-shadow: inset 0px 10px 13px -3px rgba(224,224,224,0.8);
+	box-shadow: inset 0px 10px 13px -3px rgba(224,224,224,0.8);
+}
+
+#contenido li {
+	list-style: none;
+	margin-left: 40px;
+	text-align: left;
+}
+
+.cajaCaja {
+	display: flex;
+}
+
+#contenido li:first-child {
+	margin-top: 20px;
+}
+
+#contenido .cajaImg {
+	width: 300px;
+	height: 150px;
+	margin: 5px 40px;
+  margin-left: auto;
+	margin-right: auto;
+	overflow: hidden;
+	position: relative;
+	display: inline-block;
+  text-align: center;
+}
+
+.encima {
+	width: 100%;
+	height: 50%;
+	padding: 0 5px;
+	background: rgba(255, 83, 91, .75);
+	position: absolute;
+  top: 75%;
+  left: 50%;
+	transform: translate(-50%, -50%);
+	color: white;
+	text-align: justify;
+}
+
+#contenido .cajaImg img {
+	width: 100%;
+	height: auto;
+	margin-left: auto;
+	margin-right: auto;
+  display: block;
+}
+
+.encima p {
+	font-size: 11px;
+}
+
+h2 {
+	margin-right: 20px;
+	font-weight: bold;
+}
+
+h3 {
+	font-weight: bold;
+	font-size: 17px;
+}
+
+.header {
+	position: relative;
+}
+
+.contenedor {
+	max-width: 1350px;
+	margin: auto;
+	position: relative;
+	display: flex;
+  align-items: center;
+}
+
+.user {
+	display: flex;
+	align-items: center;
+	position: absolute;
+	right: 0;
+	color: #50557f;
+}
+
+.user-img {
+	border-radius: 50%;
+	margin-right: 20px;
+}
+
+.btnUser {
+	color: #50557f;
+}
+
+.buscador {
+	padding: 7px 5px;
+	display: flex;
+	align-items: center;
+	position: absolute;
+	left: 30%;
+	width: 400px;
+	border-radius: 5px;
+	border: 1px solid lightgray;
+}
+
+#panel-H .logo-img {
+	display: inline-block;
+	margin-left: 0;
+}
+
+#panel-H .user-img {
+	display: block;
+}
